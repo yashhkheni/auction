@@ -1,0 +1,23 @@
+{
+  "name": "ykheni/auction1.0",
+  "description": "Auction App",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yash Kheni",
+      "email": "yk31@myscc.ca"
+    }
+  ],
+  "require": {
+    "ext-PDO": "*",
+    "ext-curl": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Tests\\": "tests/"
+    }
+  }
+}
